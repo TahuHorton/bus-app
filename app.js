@@ -1,6 +1,6 @@
 //CLASS
 class Bus {
-    busBuilder (name, stops, colour, monFriTimes, friTimes, satTimes, sunTimes){
+    constructor (name, stops, colour, monFriTimes, friTimes, satTimes, sunTimes){
         this.name = name;
         this.stops = stops;
         this.monFriTimes = monFriTimes;
@@ -19,29 +19,29 @@ getStops() {
 }
 
 //OBJECTS
-var awapuni = newBus("Awapuni", awapuniStops, "#ffef00", awapuniTimesMonFri, awapuniTimesFriOnly, awapuniTimesSat, awapuniTimesSun);
+var awapuni = new Bus("Awapuni", awapuniStops, "#ffef00", awapuniTimesMonFri, awapuniTimesFriOnly, awapuniTimesSat, awapuniTimesSun);
 
-var rugby = newbus("Rugby", rugbyStops, "#228b22", rugbyTimesMonFri, rugbyTimesFriOnly, rugbyTimesSat, rugbyTimesSun);
+var rugby = new Bus("Rugby", rugbyStops, "#228b22", rugbyTimesMonFri, rugbyTimesFriOnly, rugbyTimesSat, rugbyTimesSun);
 
-var highbury = newBus("Highbury", highburyStops, "#E7DFC6", highburyTimesMonFri, highburyTimesFriOnly, highburyTimesSat, highburyTimesSun);
+var highbury = new Bus("Highbury", highburyStops, "#E7DFC6", highburyTimesMonFri, highburyTimesFriOnly, highburyTimesSat, highburyTimesSun);
 
-var takaro = newBus("Takaro", takaroStops, "#EE2000", takaroTimesMonFri, takaroTimesFriOnly, takaroTimesSat, takaroTimesSun);
+var takaro = new Bus("Takaro", takaroStops, "#EE2000", takaroTimesMonFri, takaroTimesFriOnly, takaroTimesSat, takaroTimesSun);
 
-var cloverlea = newBus("Cloverlea", cloverleaStops, "#54426B", cloverlaTimesMonFri, cloverleaTimesFriOnly, cloverleaTimesSat, cloverleaTimesSun);
+var cloverlea = new Bus("Cloverlea", cloverleaStops, "#54426B", cloverlaTimesMonFri, cloverleaTimesFriOnly, cloverleaTimesSat, cloverleaTimesSun);
 
-var milson = newBus("Milson", milsonStops, "#B74708",  milsonTimesMonFri, milsonTimesFriOnly, milsonTimesSat, milsonTimesSun);
+var milson = new Bus("Milson", milsonStops, "#B74708",  milsonTimesMonFri, milsonTimesFriOnly, milsonTimesSat, milsonTimesSun);
 
-var rhodes = newBus("Rhodes", rhodesStops, "#550527", rhodesTimesMonFri, rhodesTimesFriOnly, rhodesTimesSat, rhodesTimesSun);
+var rhodes = new Bus("Rhodes", rhodesStops, "#550527", rhodesTimesMonFri, rhodesTimesFriOnly, rhodesTimesSat, rhodesTimesSun);
 
-var roslyn = newBus("Roslyn", roslynStops, "93E5AB", roslynTimesMonFri, roslynTimesFriOnly, roslynTimesSat, roslynTimesSun);
+var roslyn = new Bus("Roslyn", roslynStops, "93E5AB", roslynTimesMonFri, roslynTimesFriOnly, roslynTimesSat, roslynTimesSun);
 
-var brightwater = newBus("Brightwater", brightwaterStops, "4E878C", brightwaterTimesMonFri, brightwaterTimesFriOnly, brightwaterTimesSat, brightwaaterTimesSun);
+var brightwater = new Bus("Brightwater", brightwaterStops, "4E878C", brightwaterTimesMonFri, brightwaterTimesFriOnly, brightwaterTimesSat, brightwaaterTimesSun);
 
-var rangiora = newbus("Rangiora", rangioraStops, "F26419", rangioraTimesMonFri, rangioraTimesFriOnly, rangioraTimesSat, rangioraTimesSun);
+var rangiora = new Bus("Rangiora", rangioraStops, "F26419", rangioraTimesMonFri, rangioraTimesFriOnly, rangioraTimesSat, rangioraTimesSun);
 
-var fernlea = newBus("Fernlea", fernleaStops, "#878E88", fernleaTimesMonFri, fernleaTimesFriOnly, fernleaTimesSat, fernleaTimesSun);
+var fernlea = new Bus("Fernlea", fernleaStops, "#878E88", fernleaTimesMonFri, fernleaTimesFriOnly, fernleaTimesSat, fernleaTimesSun);
 
-var heights = newBus("Heights", heightsStops, "#F5FDC6", heightsTimesMonFri, heightsTimesFriOnly, heightsTimesSat, heightsTimesSun);
+var heights = new Bus("Heights", heightsStops, "#F5FDC6", heightsTimesMonFri, heightsTimesFriOnly, heightsTimesSat, heightsTimesSun);
 
 
 
