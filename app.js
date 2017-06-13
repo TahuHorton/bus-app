@@ -8,14 +8,13 @@ class Bus {
         this.satTimes = satTimes;
         this.sunTimes = sunTimes;
     }
-}
 
+    //GET STOPS
+    getStops() {
+        console.log("This function will test the bus stops")
+        console.log(this.stops)
+    }
 
-//GET STOPS
-
-getStops() {
-    console.log("This function will test the bus stops")
-    console.log(this.stops)
 }
 
 //OBJECTS
@@ -51,9 +50,25 @@ var heights = new Bus("Heights", heightsStops, "#F5FDC6", heightsTimesMonFri, he
 awapuni.getStops();
 
 
-//JQUERY STUFF
-$(document).ready(function(){
+document.getElementById("awapuniStops").innerHTML = awapuni.stops
+document.getElementById("highburyStops").innerHTML = highbury.stops
+document.getElementById("cloverleaStops").innerHTML = cloverlea.stops
+document.getElementById("rhodesStops").innerHTML = rhodes.stops
+document.getElementById("rangioraStops").innerHTML = rangiora.stops
+document.getElementById("fernleaStops").innerHTML = fernlea.stops
 
+
+//JQUERY STUFF
+//$(document).ready(function(){
+//    $(".bus").click(function(){
+//        console.log(this.id)
+//        $("#"+this.id+"Stops").html ( eval(this.id).getstops() );
+//        $("#"+this.id+"Stops").slideToggle();
+//});
+////LOOPING ALL BUS OBJECTS TO INSERT RELATED STOPS
+//    for(var i = 0; i < buses.length; i++) {
+//        document.getElementById(eval(buses[i])+"Stops").innerHtml = eval(buses[i]).getStops()
+//    }
 
 
 });
