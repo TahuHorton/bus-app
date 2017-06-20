@@ -7,7 +7,23 @@ class Bus {
         this.friTimes = friTimes;
         this.satTimes = satTimes;
         this.sunTimes = sunTimes;
+        this.nameDOM = document.getElementById("name");
+        this.stopsDOM = document.getElementById("stops");
+        this.monFriTimesDOM = document.getElementById("monFriTimes");
+        this.friTimesDOM = document.getElementById("friTimes");
+        this.satTimesDOM = document.getElementById("satTimes");
+        this.sunTimesDOM = document.getElementById("sunTimes");
     }
+
+      addContent(){
+        this.nameDOM.innerHTML = this.name;
+        this.stopsDOM.innerHTML = this.formatStops();
+        this.monFriTimesDOM.innerHTML = this.monFriTimes;
+        this.friTimesDOM.innerHTML = this.friTimes;
+        this.satTimesDOM.innerHTML = this.satTimes;
+        this.sunTimesDOM.innerHTML = this.sunTimes;
+
+        }
 
     //GET STOPS
     getStops() {
@@ -50,12 +66,10 @@ var heights = new Bus("Heights", heightsStops, "#F5FDC6", heightsTimesMonFri, he
 awapuni.getStops();
 
 
-document.getElementById("awapuniStops").innerHTML = awapuni.stops
-document.getElementById("highburyStops").innerHTML = highbury.stops
-document.getElementById("cloverleaStops").innerHTML = cloverlea.stops
-document.getElementById("rhodesStops").innerHTML = rhodes.stops
-document.getElementById("rangioraStops").innerHTML = rangiora.stops
-document.getElementById("fernleaStops").innerHTML = fernlea.stops
+//DOM
+function addContent(name, stops, colour, monFriTimes, friTimes, satTimes, sunTimes) {
+    nameDOM.innterHTML = name;
+}
 
 
 //JQUERY STUFF
