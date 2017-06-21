@@ -69,10 +69,12 @@ awapuni.getStops();
 
 
 
-JQUERY STUFF
+//JQUERY STUFF
 $(document).ready(function(){
 
     $(".bus h2").click(function(){
         $("#"+this.id+"Stops").html("Hello World")
-    }
+        $("#"+this.id+"Stops").slideToggle();
+    })
+});
 
