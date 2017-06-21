@@ -69,17 +69,10 @@ awapuni.getStops();
 
 
 
-//JQUERY STUFF
-//$(document).ready(function(){
-//    $(".bus").click(function(){
-//        console.log(this.id)
-//        $("#"+this.id+"Stops").html ( eval(this.id).getstops() );
-//        $("#"+this.id+"Stops").slideToggle();
-//});
-////LOOPING ALL BUS OBJECTS TO INSERT RELATED STOPS
-//    for(var i = 0; i < buses.length; i++) {
-//        document.getElementById(eval(buses[i])+"Stops").innerHtml = eval(buses[i]).getStops()
-//    }
+JQUERY STUFF
+$(document).ready(function(){
 
+    $(".bus h2").click(function(){
+        $("#"+this.id+"Stops").html("Hello World")
+    }
 
-//});
