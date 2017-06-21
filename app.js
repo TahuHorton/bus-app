@@ -3,6 +3,7 @@ class Bus {
     constructor (name, stops, colour, monFriTimes, friTimes, satTimes, sunTimes){
         this.name = name;
         this.stops = stops;
+        this.colour = colour;
         this.monFriTimes = monFriTimes;
         this.friTimes = friTimes;
         this.satTimes = satTimes;
