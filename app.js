@@ -66,10 +66,6 @@ var heights = new Bus("Heights", heightsStops, "#F5FDC6", heightsTimesMonFri, he
 awapuni.getStops();
 
 
-//DOM
-function addContent(name, stops, colour, monFriTimes, friTimes, satTimes, sunTimes) {
-    nameDOM.innterHTML = name;
-}
 
 
 //JQUERY STUFF
