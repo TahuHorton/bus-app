@@ -62,7 +62,6 @@ var heights = new Bus("Heights", heightsStops, "#F5FDC6", heightsTimesMonFri, he
 
 
 
-
 //Test Objects
 awapuni.getStops();
 
@@ -71,6 +70,11 @@ awapuni.getStops();
 
 //JQUERY STUFF
 $(document).ready(function(){
+
+    //SHOW BUS STOPS IN MENU, WHEN ROUTE CLICKED
+    $(".stopsMenu").hide();
+
+    $("main").hide();
 
     $(".bus h2").click(function(){
         $("#"+this.id+"Stops").html("Hello World")
