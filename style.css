@@ -44,7 +44,7 @@ body {
 header, footer {width: 90%; height: 10%; margin-left: 10%}
 
 aside {
-    width: 30%;
+    width: 50%;
 }
 
 main {
@@ -55,9 +55,14 @@ main {
     width: 50%;
 }
 
+aside #map {
+    background: blue;
+    height: 100%
+}
+
 .container {
     display:flex;
-    height: 80%;
+    height: 50%;
     margin: 0 10%
 }
 
