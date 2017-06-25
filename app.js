@@ -28,8 +28,12 @@ class Bus {
 
     //GET STOPS
     getStops() {
-        console.log("This function will test the bus stops")
-        console.log(this.stops)
+        var contentString = '<ul>'
+       for (var i = 0; i < this.stops.length; i++) {
+           contentString += "<li>" + this.stops[i] + "</li>"
+       }
+        contentString += '</ul>'
+        return contentString
     }
 
 }
@@ -77,7 +81,7 @@ $(document).ready(function(){
     $("main").hide();
 
     $(".bus h2").click(function(){
-        $("#"+this.id+"Stops").html(this.Stops.id)
+        $("#"+this.id+"Stops").html(eval(this.id).getStops())
         $("#"+this.id+"Stops").slideToggle();
     })
 });
