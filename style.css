@@ -52,11 +52,11 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 100%;
 }
 
 aside #map {
-    background: blue;
+    background-color: blue;
     height: 100%
 }
 
