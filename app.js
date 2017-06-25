@@ -65,7 +65,7 @@ var heights = new Bus("Heights", heightsStops, "#F5FDC6", heightsTimesMonFri, he
 //Test Objects
 awapuni.getStops();
 
-
+onresize
 
 
 //JQUERY STUFF
@@ -77,8 +77,17 @@ $(document).ready(function(){
     $("main").hide();
 
     $(".bus h2").click(function(){
-        $("#"+this.id+"Stops").html("Hello World")
+        $("#"+this.id+"Stops").html(this.Stops.id)
         $("#"+this.id+"Stops").slideToggle();
     })
 });
 
+
+//GOOGLE MAPS API
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
