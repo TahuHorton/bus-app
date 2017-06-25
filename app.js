@@ -88,6 +88,6 @@ $(document).ready(function(){
       function initMap() {
         map = new google.maps.Map(document.getElementById('map'), {
           center: {lat: -40.328366, lng: 175.637897},
-          zoom: 8
+          zoom: 13
         });
       }
