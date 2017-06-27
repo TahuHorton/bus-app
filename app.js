@@ -95,7 +95,7 @@ $(document).ready(function(){
           zoom: 13
         });
           var marker = new google.maps.Marker({
-          position: {lat: -40.3554418, lng: 175.6128876},
+          position: {lat: -40.355437, lng: 175.612909},
           map: map
         });
       }
