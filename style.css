@@ -74,7 +74,8 @@ aside #map {
 li {
     list-style-type: none;
     transition: all 0.3s;
-    line-height: 0.3
+    line-height: 1.0;
+    padding: 4px
 }
 
 .bus li:hover {
