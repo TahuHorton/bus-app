@@ -323,6 +323,15 @@ var roslynTimesSun = [11.40,11.46,11.48,11.50,11.55,12.00,12.05,12.09,12.15];
 
 
 //==========================TODO:!!!======================================RANGIORA ROUTE
+var rangioraStops = ["Depart MST",
+                   "Broadway Ave (323)",
+                   "Ruahine St (145)",
+                   "Cemetery Napier Rd",
+                   "Brightwater Tce (65)",
+                   "Napier Rd (307)",
+                   "Rangiora Ave (571)",
+                   "Bradway Ave (232)",
+                   "Arive MST"]
 var rangioraTimesMonFri = [
     [6.40,6.44,6.48,6.52,6.55,6.58,7.02,7.05,7.15],
     [7.20,7.24,7.28,7.32,7.35,7.38,7.42,7.45,7.55],
