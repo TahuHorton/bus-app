@@ -4,7 +4,7 @@ var awapuniStops = [
                 "Depart MST",
                 "Park Rd",
                 "College Street",
-                "Pitman Rd",
+                "Pitama Rd",
                 "Maxwells Line",
                 "College Street",
                 "Rugby Street",
