@@ -94,4 +94,8 @@ $(document).ready(function(){
           center: {lat: -40.328366, lng: 175.637897},
           zoom: 13
         });
+          var marker = new google.maps.Marker({
+          position: {lat: -40.3554418, lng: 175.6128876},
+          map: map
+        });
       }
